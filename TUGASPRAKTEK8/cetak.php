@@ -311,14 +311,134 @@ if ($_SESSION['user'] == null) {
                                 placeholder="Nama Negara">
                         </div>
                     </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="height: 30px; background-color: black; color:white; padding:4px;">
+                    DATA AYAH KANDUNG
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px;">
+                <div class="col-md-12">
+
                     <div class="form-group row">
-                        <div class="col-sm-12">
-                            <button type="submit" class="btn btn-sm btn-block btn-primary">SIMPAN</button>
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">NAMA AYAH KANDUNG</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="namaayah" name="namaayah" placeholder="-">
                         </div>
                     </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">TAHUN LAHIR</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="tahunlahirayah" name="tahunlahirayah"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">PENDIDIKAN</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="pendidikanayah" name="pendidikanayah"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">PEKERJAAN</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="pekerjaanayah" name="pekerjaanayah"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">PENGHASILAN BULANAN</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="penghasilanayah" name="penghasilanayah"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">BERKEBUTUHAN KHUSUS</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="kebutuhankhususayah" name="kebutuhankhususayah"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="height: 30px; background-color: black; color:white; padding:4px;">
+                    DATA IBU KANDUNG
+                </div>
+            </div>
+            <div class="row" style="margin-top:10px;">
+                <div class="col-md-12">
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">NAMA IBU KANDUNG</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="namaibu" name="namaibu" placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">TAHUN LAHIR</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="tahunlahiribu" name="tahunlahiribu"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">PENDIDIKAN</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="pendidikanibu" name="pendidikanibu"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">PEKERJAAN</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="pekerjaanibu" name="pekerjaanibu"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">PENGHASILAN BULANAN</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="penghasilanibu" name="penghasilanibu"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label style="margin-top : 5px;" class="col-sm-3 col-form-label">BERKEBUTUHAN KHUSUS</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="kebutuhankhususibu" name="kebutuhankhususibu"
+                                placeholder="-">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-sm btn-block btn-primary">SIMPAN</button>
                 </div>
             </div>
     </div>
+
+    </div>
+
     </form>
 
 
