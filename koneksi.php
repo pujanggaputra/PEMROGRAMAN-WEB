@@ -1,3 +1,7 @@
 <?php
-
-$koneksi = mysqli_connect("localhost", "root", "", "pemweb");
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "db_siswa";
+$koneksi = mysqli_connect($host, $user, $password, $database);
+?>
